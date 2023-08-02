@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+		<title>Главная</title>
+		<meta content="" name="description" />
+		<meta content="" name="keywords" />
+		<link rel="icon" type="image/png" href="img_general/favicon.png">
+		<link rel="icon" type="image/ico" href="img_general/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	</head>
+	<body>
+		<div class="maincontainer">
+            <div class="container">
+                <header>
+                    <div class="header">
+                        <div class="header__left">
+                            <a href="/" class="logo logo_header">
+                                <img src="img_general/logo.png" alt="Логотип" title="Логотип" />
+                            </a>
+                            <div class="language">
+                                <a href="#" class="language__block language__block_active">ru</a>
+                                <a href="#" class="language__block">en</a>
+                            </div>
+                        </div>
+                        <div class="header__right">
+                            <div class="personal-area personal-area_active">
+                                <div class="personal-area__top">
+                                    <a href="#" class="personal-area__icon">
+                                        <img src="img_general/personal_area.png">
+                                    </a>
+                                    <div class="personal-area__name">
+                                        <a href="#" class="personal-area__title">Tourist</a>
+                                        <div class="personal-area__exit">Выход</div>
+                                    </div>
+                                </div>
+                                <div class="personal-area__check personal-area__check_confirm"><span>✔</span> Подтверждённый профиль</div>
+                                <div class="personal-area__check"><span>✘</span> Неподтверждённый профиль</div>
+                            </div>
+                            <div class="personal-area">
+                                <div class="personal-area__inner">
+                                    <div class="personal-area__button personal-area_enter">Вход</div>
+                                    <div class="personal-area__button personal-area_register">Регистрация</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <nav>
+                            <div class="menu__close">&#10006;</div>
+                            <div class="menu__close-all"></div>
+                            <ul>
+                                <li><a href="#">Главная</a></li>
+                                <li><a href="#">Соревнования</a>
+                                <li><a href="#">Тренировка</a>
+                                <li><a href="#">Edu</a>
+                                <li><a href="#">Рейтинг</a>
+                                <li><a href="#">Архив задач</a>
+                                <li><a href="#">Наши партнеры</a>
+                                <li><a href="#">Контакты</a>
+                                <li><a href="#">О спортивном программировании</a>           
+                            </ul>
+                        </nav>
+                        <div class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </header>
+                <div class="main-content main-content_home">
+                    <div class="slider">
+                        <div class="slide" style="background-image: url(img/slide.jpg);">
+                            <div class="slide__inner">
+                                <div class="slide__title">
+                                Заголовок какой-то небольшой</div>
+                                <div class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </div>
+                                <a href="#" class="button slide__button">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: url(img/slide.jpg);">
+                            <div class="slide__inner">
+                                <div class="slide__title">
+                                Заголовок какой-то небольшой</div>
+                                <div class="slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </div>
+                                <a href="#" class="button slide__button">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sponsors">
+                        <div class="sponsors__block">
+                            <img src="img/sponsor1.jpg">
+                        </div>
+                        <div class="sponsors__block">
+                            <img src="img/sponsor2.jpg">
+                        </div>
+                        <div class="sponsors__block">
+                            <img src="img/sponsor3.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content main-content_home-top">
+                    <div class="main-content__inner">
+                        <h1>Топ 10 лидеров</h1>
+                        <div class="contests">
+                            <div class="contests__class contests__class_active" data-tab="tab-class-1">
+                                Международный
+                            </div>
+                            <div class="contests__class" data-tab="tab-class-2">
+                                Россия
+                            </div>
+                            <div class="contests__class" data-tab="tab-class-3">
+                                Организации
+                            </div>
+                            <div class="contests__class" data-tab="tab-class-4">
+                                Школьники
+                            </div>
+                            <div class="contests__class" data-tab="tab-class-5">
+                                Студенты
+                            </div>
+                        </div>
+                        <div class="contests__tabs-wrapper">
+                            <div class="contests__tabs">
+                                <div class="contests__tab contests__tab_active" id="tab-class-1">
+                                    <div class="contests__charts">
+                                        <div class="contests__chart contests__chart_first">
+                                            <div class="contests__chart-cell">1</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart contests__chart_second">
+                                            <div class="contests__chart-cell">2</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart contests__chart_third">
+                                            <div class="contests__chart-cell">3</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">4</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">5</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">6</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">7</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">8</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">9</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">10</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contests__tab" id="tab-class-2">
+                                    <div class="contests__charts">
+                                        <div class="contests__chart contests__chart_first">
+                                            <div class="contests__chart-cell">1</div>
+                                            <div class="contests__chart-cell">Tourist 2</div>
+                                            <div class="contests__chart-cell">1245</div>
+                                        </div>
+                                        <div class="contests__chart contests__chart_second">
+                                            <div class="contests__chart-cell">2</div>
+                                            <div class="contests__chart-cell">Tourist 2</div>
+                                            <div class="contests__chart-cell">1234</div>
+                                        </div>
+                                        <div class="contests__chart contests__chart_third">
+                                            <div class="contests__chart-cell">3</div>
+                                            <div class="contests__chart-cell">Tourist 2</div>
+                                            <div class="contests__chart-cell">34534</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">4</div>
+                                            <div class="contests__chart-cell">Tourist 2</div>
+                                            <div class="contests__chart-cell">6366</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">5</div>
+                                            <div class="contests__chart-cell">Tourist 2</div>
+                                            <div class="contests__chart-cell">13245</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">6</div>
+                                            <div class="contests__chart-cell">Tourist 2</div>
+                                            <div class="contests__chart-cell">68565</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">7</div>
+                                            <div class="contests__chart-cell">Tourist 2</div>
+                                            <div class="contests__chart-cell">94516</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">8</div>
+                                            <div class="contests__chart-cell">Tourist 2</div>
+                                            <div class="contests__chart-cell">3134</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">9</div>
+                                            <div class="contests__chart-cell">Tourist 2</div>
+                                            <div class="contests__chart-cell">12412</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">10</div>
+                                            <div class="contests__chart-cell">Tourist 2</div>
+                                            <div class="contests__chart-cell">1412</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contests__tab" id="tab-class-3">
+                                    <div class="contests__charts">
+                                        <div class="contests__chart contests__chart_first">
+                                            <div class="contests__chart-cell">1</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart contests__chart_second">
+                                            <div class="contests__chart-cell">2</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart contests__chart_third">
+                                            <div class="contests__chart-cell">3</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">4</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">5</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">6</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">7</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">8</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">9</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">10</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contests__tab" id="tab-class-4">
+                                    <div class="contests__charts">
+                                        <div class="contests__chart contests__chart_first">
+                                            <div class="contests__chart-cell">1</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart contests__chart_second">
+                                            <div class="contests__chart-cell">2</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart contests__chart_third">
+                                            <div class="contests__chart-cell">3</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">4</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">5</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">6</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">7</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">8</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">9</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">10</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contests__tab" id="tab-class-4">
+                                    <div class="contests__charts">
+                                        <div class="contests__chart contests__chart_first">
+                                            <div class="contests__chart-cell">1</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart contests__chart_second">
+                                            <div class="contests__chart-cell">2</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart contests__chart_third">
+                                            <div class="contests__chart-cell">3</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">4</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">5</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">6</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">7</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">8</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">9</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">10</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contests__tab" id="tab-class-5">
+                                    <div class="contests__charts">
+                                        <div class="contests__chart contests__chart_first">
+                                            <div class="contests__chart-cell">1</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart contests__chart_second">
+                                            <div class="contests__chart-cell">2</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart contests__chart_third">
+                                            <div class="contests__chart-cell">3</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">4</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">5</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">6</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">7</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">8</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">9</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                        <div class="contests__chart">
+                                            <div class="contests__chart-cell">10</div>
+                                            <div class="contests__chart-cell">Tourist 1</div>
+                                            <div class="contests__chart-cell">9456</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content main-content_home-news">
+                    <div class="main-content__inner">
+                        <h2>Новости</h2>
+                        <div class="contests">
+                            <div class="contests__class contests__class_active" data-tab="tab-news-1">
+                                Рейтинговые Соревнования
+                            </div>
+                            <div class="contests__class" data-tab="tab-news-2">
+                                Внешние соревнования
+                            </div>
+                            <div class="contests__class" data-tab="tab-news-3">
+                                Важные события
+                            </div>
+                        </div>
+                        <div class="contests__tabs-wrapper">
+                            <div class="contests__tabs">
+                                <div class="contests__tab contests__tab_active" id="tab-news-1">
+                                    <div class="contests__news">
+                                        <div class="contests__news-image">
+                                            <img src="img/news.jpg">
+                                        </div>
+                                        <div class="contests__news-info">
+                                            <div class="contests__news-left">
+                                                <div class="contests__news-title">
+                                                    Заголовок новости
+                                                </div>
+                                                <div class="contests__news-time">
+                                                    16.05.2023
+                                                </div>
+                                                <div class="contests__news-text">
+                                                    Современные технологии достигли такого уровня, что экономическая повестка сегодняшнего дня напрямую зависит от направлений прогрессивного развития. Вот вам яркий пример современных тенденций — укрепление и развитие внутренней структуры представляет собой интересный эксперимент проверки своевременного выполнения сверхзадачи. С другой стороны, граница обучения кадров позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач.
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button contests__news-button">Подробнее</a>
+                                        </div>
+                                    </div>
+                                    <div class="contests__news">
+                                        <div class="contests__news-image">
+                                            <img src="img/news.jpg">
+                                        </div>
+                                        <div class="contests__news-info">
+                                            <div class="contests__news-left">
+                                                <div class="contests__news-title">
+                                                    Заголовок новости
+                                                </div>
+                                                <div class="contests__news-time">
+                                                    16.05.2023
+                                                </div>
+                                                <div class="contests__news-text">
+                                                    Современные технологии достигли такого уровня, что экономическая повестка сегодняшнего дня напрямую зависит от направлений прогрессивного развития. Вот вам яркий пример современных тенденций — укрепление и развитие внутренней структуры представляет собой интересный эксперимент проверки своевременного выполнения сверхзадачи. С другой стороны, граница обучения кадров позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач.
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button contests__news-button">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contests__tab" id="tab-news-2">
+                                    <div class="contests__news">
+                                        <div class="contests__news-image">
+                                            <img src="img/news.jpg">
+                                        </div>
+                                        <div class="contests__news-info">
+                                            <div class="contests__news-left">
+                                                <div class="contests__news-title">
+                                                    Заголовок новости
+                                                </div>
+                                                <div class="contests__news-time">
+                                                    16.05.2023
+                                                </div>
+                                                <div class="contests__news-text">
+                                                    Современные технологии достигли такого уровня, что экономическая повестка сегодняшнего дня напрямую зависит от направлений прогрессивного развития. Вот вам яркий пример современных тенденций — укрепление и развитие внутренней структуры представляет собой интересный эксперимент проверки своевременного выполнения сверхзадачи. С другой стороны, граница обучения кадров позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач.
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button contests__news-button">Подробнее</a>
+                                        </div>
+                                    </div>
+                                    <div class="contests__news">
+                                        <div class="contests__news-image">
+                                            <img src="img/news.jpg">
+                                        </div>
+                                        <div class="contests__news-info">
+                                            <div class="contests__news-left">
+                                                <div class="contests__news-title">
+                                                    Заголовок новости
+                                                </div>
+                                                <div class="contests__news-time">
+                                                    16.05.2023
+                                                </div>
+                                                <div class="contests__news-text">
+                                                    Современные технологии достигли такого уровня, что экономическая повестка сегодняшнего дня напрямую зависит от направлений прогрессивного развития. Вот вам яркий пример современных тенденций — укрепление и развитие внутренней структуры представляет собой интересный эксперимент проверки своевременного выполнения сверхзадачи. С другой стороны, граница обучения кадров позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач.
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button contests__news-button">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contests__tab" id="tab-news-3">
+                                    <div class="contests__news">
+                                        <div class="contests__news-image">
+                                            <img src="img/news.jpg">
+                                        </div>
+                                        <div class="contests__news-info">
+                                            <div class="contests__news-left">
+                                                <div class="contests__news-title">
+                                                    Заголовок новости
+                                                </div>
+                                                <div class="contests__news-time">
+                                                    16.05.2023
+                                                </div>
+                                                <div class="contests__news-text">
+                                                    Современные технологии достигли такого уровня, что экономическая повестка сегодняшнего дня напрямую зависит от направлений прогрессивного развития. Вот вам яркий пример современных тенденций — укрепление и развитие внутренней структуры представляет собой интересный эксперимент проверки своевременного выполнения сверхзадачи. С другой стороны, граница обучения кадров позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач.
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button contests__news-button">Подробнее</a>
+                                        </div>
+                                    </div>
+                                    <div class="contests__news">
+                                        <div class="contests__news-image">
+                                            <img src="img/news.jpg">
+                                        </div>
+                                        <div class="contests__news-info">
+                                            <div class="contests__news-left">
+                                                <div class="contests__news-title">
+                                                    Заголовок новости
+                                                </div>
+                                                <div class="contests__news-time">
+                                                    16.05.2023
+                                                </div>
+                                                <div class="contests__news-text">
+                                                    Современные технологии достигли такого уровня, что экономическая повестка сегодняшнего дня напрямую зависит от направлений прогрессивного развития. Вот вам яркий пример современных тенденций — укрепление и развитие внутренней структуры представляет собой интересный эксперимент проверки своевременного выполнения сверхзадачи. С другой стороны, граница обучения кадров позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач.
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button contests__news-button">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <footer>
+                <div class="footer">
+                    <div class="footer__top">
+                        <a href="#" class="footer__link">API</a>
+                        <a href="/" class="logo logo_footer">
+                            <img src="img_general/logo.png">
+                        </a>
+                    </div>
+                    <div class="footer__bottom">© 2011-2023 г. Сайт не является публичной офертой и носит информационный характер. Все материалы данного сайта являются объектами авторского права (в том числе дизайн). Запрещается копирование, распространение (в том числе путем копирования на другие сайты и ресурсы в Интернете) или любое иное использование информации и объектов без предварительного согласия правообладателя.</div>
+                </div>
+		    </footer>
+		</div>
+		<div class="b-popup b-popup_register">
+    		<div class="b-popup__close"></div>
+            <div class="b-popup__content">
+				<div class="b-popup__title">Регистрация</div>
+				<form method="post" name="register_user">
+                    <div class="b-popup__block">
+                        <p>Хэндл</p>
+                        <div class="b-popup__block-right">
+                            <input type="text" name="nickname" placeholder="nickname">
+                            <span>Выберите ваш ник в системе. Будьте внимательны, так как позже вы сможете его изменить только один раз в течение 7-ми дней после регистрации.</span>
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <p>E-mail</p>
+                        <div class="b-popup__block-right">
+                            <input type="email" name="email" placeholder="121@123.ru">
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <p>Пароль</p>
+                        <div class="b-popup__block-right">
+                            <input type="password" name="password" placeholder="******">
+                            <span>Пароль должен содержать не менее пяти символов.</span>
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <p>Потверждение пароля</p>
+                        <div class="b-popup__block-right">
+                            <input type="password" name="password" placeholder="******">
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <div class="b-popup__block-right">
+				            <input type="submit" name="submit" class="button" value="Зарегистрироваться">
+                            <span>Если вы уже регистрировались, но не получлили подтверждение по e-mail, то перейдите <a href="#">по ссылке</a>.</span>
+                        </div>
+                    </div>
+				</form>
+                <div class="b-popup__link-social">
+                    <a href="#">По Gmail</a>
+                    <a href="#">По ВКонтакте</a>
+                </div>
+                <div class="b-popup__close-up">&#10006;</div>
+            </div>
+        </div>
+        <div class="b-popup b-popup_enter">
+    		<div class="b-popup__close"></div>
+            <div class="b-popup__content">
+				<div class="b-popup__title">Войти в личный кабинет</div>
+				<form method="post" name="enter_user">
+                    <div class="b-popup__block">
+                        <p>Хэндл/e-mail</p>
+                        <div class="b-popup__block-right">
+                            <input type="text" name="nickname" placeholder="nickname">
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <p>Пароль</p>
+                        <div class="b-popup__block-right">
+                            <input type="password" name="password" placeholder="******">
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <div class="b-popup__block-right">
+				            <input type="submit" name="submit" class="button" value="Войти">
+                            <span class="b-popup__forget">Забыли пароль?</span>
+                        </div>
+                    </div>
+				</form>
+                <div class="b-popup__close-up">&#10006;</div>
+            </div>
+        </div>
+        <div class="b-popup b-popup_recovery">
+    		<div class="b-popup__close"></div>
+            <div class="b-popup__content">
+				<div class="b-popup__title">Восстановление пароля</div>
+				<form method="post" name="recovery_user">
+                    <div class="b-popup__block">
+                        <p>Хэндл/e-mail</p>
+                        <div class="b-popup__block-right">
+                            <input type="text" name="nickname" placeholder="nickname">
+                            <span>Введите хэндл или e-mail для восстановления пароля.</span>
+                        </div>
+                    </div>
+                    <div class="b-popup__block">
+                        <div class="b-popup__block-right">
+				            <input type="submit" name="submit" class="button" value="Восстановить">
+                        </div>
+                    </div>
+				</form>
+                <div class="b-popup__close-up">&#10006;</div>
+            </div>
+        </div>
+        <div class="b-popup messages">
+            <div class="b-popup__close"></div>
+            <div class="b-popup__content">
+				<div class="b-popup__title">Спасибо</div>
+				<p class="b-popup__text">Ваше решение отправено на проверку.</p>
+				<div class="b-popup__close-up">&#10006;</div>
+            </div>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="general_script.js" type="text/javascript"></script>
+        <script src="slick/slick.min.js" type="text/javascript"></script>
+		<script src="script.js" type="text/javascript"></script>
+	</body>
+</html>
